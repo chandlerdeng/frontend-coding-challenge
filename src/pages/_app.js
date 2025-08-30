@@ -1,16 +1,16 @@
 import "../styles/globals.css";
 
 import { storyblokInit, apiPlugin } from "@storyblok/react";
-import Feature from "../components/Feature";
+import Button from "../components/Button";
 import Grid from "../components/Grid";
 import Page from "../components/Page";
-import Teaser from "../components/Teaser";
+import ImageTextSection from "../components/ImageTextSection";
 
 const components = {
-  feature: Feature,
+  button: Button,
   grid: Grid,
-  teaser: Teaser,
-  page: Page,
+  "image-text-section": ImageTextSection,
+  "default-page": Page,
 };
 
 storyblokInit({
